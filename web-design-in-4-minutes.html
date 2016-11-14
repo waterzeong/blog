@@ -2,14 +2,35 @@
 <html>
     <head>
         <meta charset="utf-8">
-<meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Cache-Control" content="no-siteapp">
-<meta name="google" value="notranslate">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+<meta name="renderer" content="webkit">
+<meta name="google" value="notranslate">
+<meta name="robots" content="index,follow">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="拾光机">
+<meta name="twitter:description" content="时间不负，何负时间">
+<meta name="twitter:image:src" content="http://www.shery.me/blog/blog/images/avatar.png">
+
+<meta property="og:url" content="http://www.shery.me/blog">
+<meta property="og:title" content="拾光机">
+<meta property="og:description" content="时间不负，何负时间">
+<meta property="og:site_name" content="拾光机">
+<meta property="og:image" content="http://www.shery.me/blog/blog/images/avatar.png">
+<meta property="og:type" content="website">
+<meta name="robots" content="noodp">
+
+<meta itemprop="name" content="拾光机">
+<meta itemprop="description" content="时间不负，何负时间">
+<meta itemprop="image" content="http://www.shery.me/blog/blog/images/avatar.png">
+
+<link rel="canonical" href="http://www.shery.me/blog">
+
 <link rel="shortcut icon" href="/blog/favicon.png">
 <link rel="apple-itouch-icon" href="/blog/favicon.png">
-<meta name="robots" content="index,follow">
 <link rel="stylesheet" href="/blog/bundle/index.css">
 <script type="text/javascript">
     var timeSinceLang = {
@@ -24,8 +45,8 @@
 </script>
 
 
-        <meta name="keywords" content="CSS,前端,,inkpaper,纸小墨,博客,静态博客构建工具,构建迅速,专注创作,素雅简洁,无依赖,跨平台,go语言,开源,Github">
-        <meta name="description" content="4分钟学会网页样式[译],纸小墨,简洁的静态博客构建工具,构建只为纯粹书写的博客">
+        <meta name="keywords" content="CSS,前端,">
+        <meta name="description" content="4分钟学会网页样式[译]">
         <meta name="author" content="shery">
         <title>4分钟学会网页样式[译]</title>
     </head>
@@ -33,7 +54,7 @@
         <article class="container">
             <header class="header-wrap">
   <a class="index" href="/blog/">
-    <img class="logo" src="/blog/images/avatar.jpg" />
+    <img class="logo" src="/blog/images/avatar.png" />
     拾光机
   </a>
   <ul class="menu">
@@ -46,10 +67,10 @@
             <article class="main article">
                 <h1 class="title">4分钟学会网页样式[译]</h1>
                 <section class="info">
-                    <span class="avatar" style="background-image: url(/blog/images/avatar.jpg);"></span>
+                    <span class="avatar" style="background-image: url(/blog/images/avatar.png);"></span>
                     <a class="name" href="/blog/about.me.html">shery</a>
                     
-                    <span class="date" data-time="1473265740"><span class="from"></span> 更新</span>
+                    <span class="date" data-time="1469718000"><span class="from"></span></span>
                     
                     <span class="tags"><a class="tag" href="/blog/tag/CSS/index.html">CSS</a><a class="tag" href="/blog/tag/%e5%89%8d%e7%ab%af/index.html">前端</a></span>
                 </section>
@@ -67,7 +88,7 @@
 
 <p>长文本很难解析，也因此不易阅读。每行设置字符限制，可以大大提高大量文本的可读性和吸引力。</p>
 
-<pre><code class="language-yaml">body {
+<pre><code>body {
   margin: 0 auto;
   max-width: 50em;
 }
@@ -79,7 +100,7 @@
 
 <p>浏览器的默认字体为<code>Times</code>，可看起来缺乏吸引力（主要是因为它是“无样式”字体）。切换到一个无衬线字体，如<code>Helvetica</code>或<code>Arial</code>可以大大提高你网页的可读性。</p>
 
-<pre><code class="language-yaml">body {
+<pre><code>body {
   font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
 }
 </code></pre>
@@ -91,7 +112,7 @@
 
 <p>当用户觉得一个页面<code>崩坏</code>的时候，通常来说都是<code>间距</code>问题。通过在文本周围和文本内设置适当的间距就可以增加页面的吸引力。</p>
 
-<pre><code class="language-yaml">body {
+<pre><code>body {
   line-height: 1.5;
   padding: 4em 1em;
 }
@@ -108,14 +129,14 @@ h2 {
 
 <p>白色背景上的黑色文字看起来会比较扎眼。为文本选择一款较软一点的黑色，让页面阅读起来更舒服。</p>
 
-<pre><code class="language-yaml">body {
+<pre><code>body {
   color: #555;
 }
 </code></pre>
 
 <p>为了保持一个良好的<code>对比度</code>，让我们为<code>重要</code>文本选择一个更黑暗的阴影。</p>
 
-<pre><code class="language-yaml">h1,
+<pre><code>h1,
 h2,
 strong {
   color: #333;
@@ -128,7 +149,7 @@ strong {
 
 <p>只需要一些额外的调整就可以平衡页面：</p>
 
-<pre><code class="language-yaml">code,
+<pre><code>code,
 pre {
   background: #eee;
 }
@@ -149,7 +170,7 @@ pre {
 
 <p>大多数品牌都有一个<code>主色调</code>，作为视觉基调。在一个网页上，这个主色调可以用来强调交互元素，如<code>链接</code>。</p>
 
-<pre><code class="language-yaml">a {
+<pre><code>a {
   color: #e81c4f;
 }
 </code></pre>
@@ -160,7 +181,7 @@ pre {
 
 <p>主色调可以用更微妙的色调来补充，用于边框，背景，甚至正文中。</p>
 
-<pre><code class="language-yaml">body {
+<pre><code>body {
   color: #566b78;
 }
 
@@ -183,7 +204,7 @@ pre {
 <p>由于文本是网页的主要内容，使用<code>自定义字体</code>能使页面更加引人注目。
 当你可以嵌入自己的网页字体或使用类似<a href="https://typekit.com/">Typekit</a>的在线服务时，让我们使用免费<a href="https://fonts.google.com/">谷歌字体</a><code>Roboto</code>：</p>
 
-<pre><code class="language-yaml">@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+<pre><code>@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
 
 body {
   font-family: &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
@@ -198,7 +219,7 @@ body {
 
 <p>让我们从<a href="https://unsplash.com/photos/qH36EgNjPJY">Unsplash</a>挑选一张漂亮的背景图片来美化<code>header</code>。</p>
 
-<pre><code class="language-yaml">header {
+<pre><code>header {
   background-color: #263d36;
   background-image: url(&quot;header.jpg&quot;);
   background-position: center top;
@@ -212,7 +233,7 @@ body {
 
 <p>添加<code>logo</code></p>
 
-<pre><code class="language-yaml">header img {
+<pre><code>header img {
   display: inline-block;
   height: 120px;
   vertical-align: top;
@@ -222,7 +243,7 @@ body {
 
 <p>让我们借这个机会，来提高文本格调。</p>
 
-<pre><code class="language-yaml">header h1 {
+<pre><code>header h1 {
   color: white;
   font-size: 2.5em;
   font-weight: 300;
@@ -270,17 +291,24 @@ header a:hover {
 
 <blockquote>
 <p>本文译自2016年的<a href="http://jgthms.com/web-design-in-4-minutes/">《Web Design in 4 minutes》 - Jeremy Thomas</a>，第一次翻译，同时对原文有理解性改动，水平有限，欢迎提出意见。</p>
+
+<p>本作品采用 <a href="https://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a> 进行许可。</p>
 </blockquote>
 </article>
                 <section class="author">
-                    <div class="avatar" style="background-image: url(/blog/images/avatar.jpg);"></div>
+                    <div class="avatar" style="background-image: url(/blog/images/avatar.png);"></div>
                     <a class="name" href="/blog/about.me.html">shery</a>
                     <div class="intro">前端攻城狮</div>
                 </section>
                 <section class="recommend">
                     
+                    <section class="nav prev more">
+                        <div class="head">上篇文章</div>
+                        <a class="link" href="/blog/awesome-atom-packages.html">Awesome Atom Packages</a>
+                    </section>
                     
-                    <section class="nav next">
+                    
+                    <section class="nav next more">
                         <div class="head">下篇文章</div>
                         <a class="link" href="/blog/manjaro.html">Enjoy Manjaro</a>
                     </section>
@@ -306,7 +334,7 @@ header a:hover {
             document.write(new Date().getFullYear());
         </script>
     </span>
-    <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
+    <span class="publish">Powered by <a href="http://www.chole.io/" target="_blank">Ink</a></span>
 </footer>
 
         <script src="/blog/bundle/index.js"></script>
