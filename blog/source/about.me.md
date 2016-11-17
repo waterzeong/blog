@@ -9,3 +9,5 @@ author: me
 非著名程序员
 
 [http://www.shery.me/blog](http://www.shery.me/blog/)
+
+Travis CI test
