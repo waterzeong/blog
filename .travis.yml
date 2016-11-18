@@ -1,10 +1,11 @@
 language: go
 
 # S: Build Lifecycle
-install:
-  - go build
+# install:
+  
 # before_script
 script:
+  - go build
   - ink build template
 
 after-script:
