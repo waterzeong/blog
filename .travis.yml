@@ -7,7 +7,7 @@ language: go
 
 script:
   - ls
-  - ink build template
+  - ./ink build template
   - ls
   - cd ./template/docs
   - git init
