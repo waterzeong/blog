@@ -7,8 +7,9 @@ language: go
 
 script:
   - ls
-  - ink build
-  - cd ./blog/docs
+  - ink build template
+  - ls
+  - cd ./template/docs
   - git init
   - git config user.name "shery15"
   - git config user.email "382254994@qq.com"
