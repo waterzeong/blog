@@ -1,18 +1,13 @@
 language: go
 
 # S: Build Lifecycle
-# install:
-
+# install
 # before_script
 script:
-  - go build
-  - ls
-  - cd blog
-  - ls
-  - ./ink build template
+  - ink build
 
 after-script:
-  - cd ./template/docs
+  - cd ./blog/docs
   - git init
   - git config user.name "shery15"
   - git config user.email "382254994@qq.com"
