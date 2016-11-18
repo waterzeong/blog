@@ -2,11 +2,11 @@ language: go
 
 # S: Build Lifecycle
 # install:
-  
+
 # before_script
 script:
   - go build
-  - ink build template
+  - ./ink build template
 
 after-script:
   - cd ./template/docs
