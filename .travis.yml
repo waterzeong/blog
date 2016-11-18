@@ -7,6 +7,8 @@ language: go
 script:
   - go build
   - ls
+  - cd blog
+  - ls
   - ./ink build template
 
 after-script:
