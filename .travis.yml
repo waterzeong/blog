@@ -4,7 +4,8 @@ language: node_js
 # install
 # before_script
 script:
-  - ./ink build
+  - ls
+  - ink build
 
 after-script:
   - cd ./blog/docs
