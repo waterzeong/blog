@@ -4,10 +4,10 @@ language: go
 # install
 # before_script
 script:
-  - ink build
+  - ink build template
 
 after-script:
-  - cd ./blog/docs
+  - cd ./template/docs
   - git init
   - git config user.name "shery15"
   - git config user.email "382254994@qq.com"
