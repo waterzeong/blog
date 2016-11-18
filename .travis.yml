@@ -1,4 +1,4 @@
-language: go
+language: node_js
 
 # S: Build Lifecycle
 # install
