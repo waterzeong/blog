@@ -5,9 +5,9 @@ language: node_js
 # before_script
 script:
   - ls
-  - ink build
 
 after-script:
+  - ink build
   - cd ./blog/docs
   - git init
   - git config user.name "shery15"
