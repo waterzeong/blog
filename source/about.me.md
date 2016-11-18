@@ -7,6 +7,6 @@ author: me
 ## shery
 
 非著名程序员
-travis CI 测试 2
+travis CI 测试 3
 
 [http://www.shery.me/blog](http://www.shery.me/blog/)

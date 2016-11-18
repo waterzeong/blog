@@ -22,6 +22,7 @@ build:
     # Copied files to public folder when build
     copy:
         - "source/images"
+        - "theme/README.md"
     # Excuted command when use 'ink publish'
     publish: |
         cd docs
