@@ -6,6 +6,7 @@ language: go
 # before_script
 script:
   - go build
+  - ls
   - ./ink build template
 
 after-script:
