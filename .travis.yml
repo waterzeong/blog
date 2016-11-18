@@ -6,6 +6,7 @@ language: node_js
 # script:
 
 script:
+  - ls
   - ink build
   - cd ./blog/docs
   - git init
