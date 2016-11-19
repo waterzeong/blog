@@ -7,6 +7,6 @@ author: me
 ## shery
 
 非著名程序员
-测试 7
+测试 8
 
 [http://www.shery.me/blog](http://www.shery.me/blog/)
