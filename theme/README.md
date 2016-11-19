@@ -1,4 +1,4 @@
-# ink-default
+# Ink-Default
 The default theme of InkPaper. New to [InkPaper](http://www.chole.io)?
 ## Theme Source Code
 [https://github.com/shery15/blog/tree/blog-source/theme](https://github.com/shery15/blog/tree/blog-source/theme)
