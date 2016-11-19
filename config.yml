@@ -25,4 +25,6 @@ build:
         - "README.md"
     # Excuted command when use 'ink publish'
     publish: |
-        cd docs
+        git add .
+        git commit -m "update"
+        git push origin blog-source
