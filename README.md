@@ -1,4 +1,6 @@
 # Blog of Shery
+[![Build Status](https://travis-ci.org/shery15/blog.svg?branch=blog-source)](https://travis-ci.org/shery15/blog)
+
 [http://shery.me/blog](http://shery.me/blog)
 ## Blog Source Code
 [https://github.com/shery15/blog](https://github.com/shery15/blog)
