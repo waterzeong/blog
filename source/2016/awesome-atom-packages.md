@@ -135,5 +135,3 @@ A hyperclick provider that lets you jump to where variables are defined
 ```
 Add Travis CI status of the project to the Atom status bar
 ```
-
-> This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

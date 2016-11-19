@@ -58,5 +58,3 @@ export XMODIFIERS="@im=fcitx"
 最后推荐一款主题 [arc-theme](https://github.com/horst3180/Arc-theme)，一款漂亮的扁平化主题。
 ## 总结
 Manjaro 的安装过程非常简单，同时也是基于 Arch Linux 的一个相对完整的发行版，有较好的稳定性、易用、人性化，就像其官网宣传的能达到开机即用的自由操作系统，这也为想要体验自由系统的用户提供了另一种途径，让更多用户可以更平缓的进入自由系统的世界，Enjoy Manjaro!
-
-> 本作品采用 [知识共享署名 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/) 进行许可。

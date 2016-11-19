@@ -135,5 +135,3 @@ markdown 实时预览
 ```
 底部状态栏扩展
 ```
-
-> 本作品采用 [知识共享署名 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/) 进行许可。

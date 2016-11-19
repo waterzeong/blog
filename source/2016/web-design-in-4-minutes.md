@@ -214,5 +214,3 @@ header a:hover {
 感谢阅读！
 
 > 本文译自2016年的[《Web Design in 4 minutes》 - Jeremy Thomas](http://jgthms.com/web-design-in-4-minutes/)，第一次翻译，同时对原文有理解性改动，水平有限，欢迎提出意见。
-
-> 本作品采用 [知识共享署名 4.0 国际许可协议](https://creativecommons.org/licenses/by/4.0/) 进行许可。
