@@ -1,2 +1,2 @@
-# blog
-Shery's blog
+# blog-theme
+说明
