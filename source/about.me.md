@@ -8,4 +8,6 @@ author: me
 
 非著名程序员
 
+待更新关于自己
+
 [http://www.shery.me/blog](http://www.shery.me/blog/)
