@@ -3,7 +3,7 @@ date: 2016-11-18 22:00:00 +0800
 update: 2016-11-18 23:00:00 +0800
 author: me
 cover: "-/images/travis-ci.png"
-draft: false
+draft: true
 top: false
 tags:
     - CI
