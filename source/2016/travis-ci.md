@@ -6,8 +6,8 @@ cover: "-/images/travis-ci.png"
 draft: false
 top: false
 tags:
-    - Linux
-    - 系统
+    - CI
+    - 测试
 preview: continuous integration
 
 ---
