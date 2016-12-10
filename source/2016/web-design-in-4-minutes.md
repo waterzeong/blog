@@ -139,7 +139,7 @@ body {
 ```
 在通过自定义字体凸显你的个性后，想让页面更加丰富多彩又怎么办呢？
 
-![Spongebob rainbow meme saying 'Images'](http://jgthms.com/web-design-in-4-minutes/images.png)
+![Spongebob rainbow meme saying 'Images'](https://raw.githubusercontent.com/jgthms/web-design-in-4-minutes/master/images.png)
 
 图片和图标既可用来作为支持你的内容的装饰品，还可以在你想要传达的信息中担当积极部分。
 
