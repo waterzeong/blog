@@ -12,5 +12,6 @@ author: me
 做过老师
 做过 Freelancer
 现在是个搬砖前端
+2017
 
 [http://www.shery.me/blog](http://www.shery.me/blog/)
