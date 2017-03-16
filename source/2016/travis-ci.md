@@ -13,4 +13,5 @@ preview: continuous integration
 ---
 ## Travis CI 简介
 continuous integration
+Ink 最佳部署
 ![travis-ci](-/images/travis-ci.png)
