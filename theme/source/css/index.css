@@ -27,8 +27,8 @@
     .logo {
       width: 30px;
       height: 30px;
-      border-radius: 50%;
-      border: 1px solid $greyLighter;
+      /*border-radius: 50%;*/
+      /*border: 1px solid $greyLighter;*/
       margin-right: 10px;
     }
   }
@@ -54,10 +54,10 @@ a.name {
       margin: 0 auto;
       width: 80px;
       height: 80px;
-      border-radius: 50%;
+      /*border-radius: 50%;*/
       background-size: cover;
       background-repeat: no-repeat;
-      border: 1px $greyLighter solid;
+      /*border: 1px $greyLighter solid;*/
     }
     .title {
       margin: 0;

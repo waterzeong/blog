@@ -1,5 +1,8 @@
 {
   "name": "InkPaperDefaultTheme",
+  "scripts": {
+    "start": "webpack"
+  },
   "version": "0.0.1",
   "description": "InkPaper Default Theme",
   "devDependencies": {
