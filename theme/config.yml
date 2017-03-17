@@ -5,6 +5,7 @@ copy:
     - robots.txt
 # I18n Support
 lang:
+    # background: "-/images/avatar.png"
     archive:
         en: ARCHIVE
         zh: 归档
