@@ -5,7 +5,16 @@ copy:
     - robots.txt
 # I18n Support
 lang:
-    # background: "-/images/avatar.png"
+    bg1:
+        en: "./images/bg1.jpg"
+        zh: "./images/bg1.jpg"
+        ru: "./images/bg1.jpg"
+        ja: "./images/bg1.jpg"
+    bg2:
+        en: "./images/bg2.jpg"
+        zh: "./images/bg2.jpg"
+        ru: "./images/bg2.jpg"
+        ja: "./images/bg2.jpg"
     archive:
         en: ARCHIVE
         zh: 归档
