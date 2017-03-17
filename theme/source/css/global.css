@@ -1,9 +1,9 @@
 @define-mixin font-main {
-  font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
 }
 
 @define-mixin font-assist {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
 }
 
 @define-mixin font-code {
