@@ -6,6 +6,13 @@
       color: $black;
       text-decoration: none;
       border-bottom: 1px solid $grey;
+      -webkit-transition: border-color .5s ease;
+      transition: border-color .5s ease;
+      transition: border-color .5s ease;
+      transition: border-color .5s ease,-webkit-transform .5s ease;
+      &:hover {
+        border-color: $black;
+      }
     }
     .site {
       .title, .subtitle {

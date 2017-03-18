@@ -9,7 +9,7 @@
     </head>
     <body>
         <article class="container">
-            {{template "header" .}}
+            {{template "headerasset" .}}
             <article class="main article">
                 <h1 class="title">{{.Title}}</h1>
                 <section class="info">
@@ -31,14 +31,16 @@
                 <section class="recommend">
                     {{if .Prev}}
                     <section class="nav prev{{if .Next}} more{{end}}">
-                        <div class="head">{{i18n "prev_reading"}}</div>
-                        <a class="link" href="{{.Site.Root}}/{{.Prev.Link}}">{{.Prev.Title}}</a>
+                        <!-- <div class="head">{{i18n "prev_reading"}}</div>
+                        <a class="link" href="{{.Site.Root}}/{{.Prev.Link}}">{{.Prev.Title}}</a> -->
+                        <a class="link" href="{{.Site.Root}}/{{.Prev.Link}}">{{i18n "prev_reading"}}</a>
                     </section>
                     {{end}}
                     {{if .Next}}
                     <section class="nav next{{if .Prev}} more{{end}}">
-                        <div class="head">{{i18n "next_reading"}}</div>
-                        <a class="link" href="{{.Site.Root}}/{{.Next.Link}}">{{.Next.Title}}</a>
+                        <!-- <div class="head">{{i18n "next_reading"}}</div>
+                        <a class="link" href="{{.Site.Root}}/{{.Next.Link}}">{{.Next.Title}}</a> -->
+                        <a class="link" href="{{.Site.Root}}/{{.Next.Link}}">{{i18n "next_reading"}}</a>
                     </section>
                     {{end}}
                 </section>
