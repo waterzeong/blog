@@ -6,21 +6,25 @@
         <meta name="description" content="{{.Site.Subtitle}}">
         <title>{{.Site.Title}}</title>
     </head>
-    <body class="nav-closed">
+    <body>
         <article class="container">
-            {{template "header" .}}
+            {{if .TagName}}
+              {{template "headerarticle" .}}
+            {{else}}
+              {{template "header" .}}
+            {{end}}
             <article class="main page">
                 <header class="header site">
-                    {{if .TagName}}
-                        {{if .Site.Logo}}<img class="logo" src="{{.Site.Logo}}" />{{end}}
-                        <h1 class="tag">{{.TagName}}</h1>
-                        <h2 class="tag-sub">{{.TagCount}} {{i18n "articles"}}</h2>
-                    {{else}}
-                        {{if .Site.Logo}}<img class="logo" src="{{.Site.Logo}}" />{{end}}
-                        <h1 class="title">{{.Site.Title}}</h1>
-                        <h2 class="subtitle">{{.Site.Subtitle}}</h2>
-                        {{template "search" .}}
-                    {{end}}
+                  {{if .TagName}}
+                    {{if .Site.Logo}}<img class="logo" src="{{.Site.Logo}}" />{{end}}
+                    <h1 class="tag">{{.TagName}}</h1>
+                    <h2 class="tag-sub">{{.TagCount}} {{i18n "articles"}}</h2>
+                  {{else}}
+                    {{if .Site.Logo}}<img class="logo" src="{{.Site.Logo}}" />{{end}}
+                    <!-- <h1 class="title">{{.Site.Title}}</h1> -->
+                    <!-- <h2 class="subtitle">{{.Site.Subtitle}}</h2> -->
+                    {{template "search" .}}
+                  {{end}}
                 </header>
                 <ul class="article-list">
                     {{range .Articles}}

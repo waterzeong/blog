@@ -9,12 +9,8 @@
     </head>
     <body>
         <article class="container">
-            {{template "header" .}}
+            {{template "headerasset" .}}
             <article class="main archive">
-                <header class="site">
-                    <h1 class="title">{{.Site.Title}}</h1>
-                    <h2 class="subtitle">{{.Site.Subtitle}}</h2>
-                </header>
                 <header class="header">
                     <span class="title">{{i18n "archive"}} -</span>
                     <span class="subtitle">{{.Total}} {{i18n "articles"}}</span>

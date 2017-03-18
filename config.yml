@@ -1,9 +1,9 @@
 site:
-    title: "拾光机"
-    subtitle: "时间不负，何负时间"
+    title: "LOVIN YOU"
+    subtitle: "There is no Y in { happiness }, It's an I"
     limit: 10
     theme: theme
-    lang: zh
+    lang: en
     url: "http://www.shery.me/blog/"
     comment: shery09
     logo: "-/images/logo.png"
@@ -14,7 +14,7 @@ authors:
     me:
         name: "shery"
         intro: "前端攻城狮"
-        avatar: "-/images/avatar.png"
+        avatar: "-/images/avatar.jpg"
 
 build:
     output: "docs"
