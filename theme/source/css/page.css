@@ -59,6 +59,9 @@
         border-bottom: 1px $grey solid;
         &:last-child {
           border-bottom: 0;
+          &:after {
+            display: none;
+          }
         }
         &:after {
           display: block;
