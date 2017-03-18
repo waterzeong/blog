@@ -300,39 +300,9 @@ a.name {
       line-height: 1.6rem;
     }
 
-    .post {
-        width: auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 16px;
-        margin-right: 16px;
-        padding-bottom: 2rem;
-        line-height: 1.65em;
-    }
-
-    .post-date {
-        display: none;
-    }
-
-    .post-template .post-header {
-        margin-bottom: 2rem;
-    }
-
-    .post-template .post-date {
-        display: inline-block;
-    }
-
     hr {
         margin: 1.75em 0;
     }
-
-
-
-
-    .post-excerpt p {
-        font-size: 0.85em;
-    }
-
 
     h1 {
         font-size: 2.8rem;
@@ -358,85 +328,5 @@ a.name {
 
     h6 {
         font-size: 1.8rem;
-    }
-
-
-
-    .post-template .site-footer {
-        margin-top: 0;
-    }
-
-    .post-content img {
-        padding: 0;
-        width: calc(100% + 32px);
-        /* expand with to image + margins */
-        min-width: 0;
-        max-width: 112%;
-        /* fallback when calc doesn't work */
-    }
-
-
-
-
-
-
-
-
-
-
-    .author-meta li {
-        float: none;
-        margin: 0;
-        line-height: 1.75em;
-    }
-
-    .author-meta li:before {
-        display: none;
-    }
-
-    .older-posts, .newer-posts {
-        position: static;
-        margin: 10px 0;
-    }
-
-    .page-number {
-        display: block;
-    }
-
-    .site-footer {
-        margin-top: 3rem;
-    }
-
-    .author-profile {
-        padding-bottom: 2rem;
-    }
-
-    .post-head.main-header {
-        height: 30vh;
-    }
-
-    .tag-head.main-header, .author-head.main-header {
-        height: 20vh;
-    }
-
-    .author-profile .author-image {
-        margin-top: -70px;
-    }
-
-    .author-profile .author-meta span {
-        font-size: 1.4rem;
-    }
-
-    .archive-template .main-header .page-description {
-        display: none;
-    }
-
-    .read-next {
-        margin-top: 2rem;
-        margin-bottom: -37px;
-    }
-
-    .read-next .post {
-        width: 100%;
     }
 }
