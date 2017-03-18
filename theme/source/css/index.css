@@ -188,11 +188,9 @@ a.name {
   font-size: 14px;
   border-top: 1px $white solid;
   color: $greyLight;
-  background-color: $whiteLighter;
   clear: both;
   position: relative;
-  height: 32px;
-  margin-top: -36px;
+  @mixin font-assist;
   span {
     padding: 8px 15px;
     display: block;
