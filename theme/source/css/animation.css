@@ -25,3 +25,21 @@
         transform: translateY(0);
     }
 }
+
+@keyframes mixin {
+    0% {
+        opacity: .2;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+      opacity: 1;
+      -webkit-transform: translateY(10px);
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: .2;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+}

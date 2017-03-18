@@ -210,6 +210,27 @@ a.name {
   }
 }
 
+.scroll-down {
+    display: block;
+    position: absolute;
+    z-index: 9999;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -12px;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255,255,255, 0.5) !important;
+    -webkit-animation: mixin 2s 1s infinite;
+    animation: mixin 2s 1s infinite;
+    animation-timing-function: ease-in-out;
+    opacity: .2;
+    &.icon-down-open:before {
+      margin: 0;
+    }
+}
 
 @media only screen and (max-width: 500px) {
 
