@@ -276,6 +276,12 @@ a.name {
     p, ul, ol, dl {
       font-size: 0.9em;
     }
+    .footer {
+      font-size: 12px;
+      span {
+        padding: 5px;
+      }
+    }
 
 
     .post {
