@@ -8,7 +8,7 @@ top: false
 tags:
     - 个人简历
     - resume
-preview: ""
+preview: "Shery's Resume as Web Front-End Developer."
 
 ---
 ## 个人信息
