@@ -25,7 +25,7 @@ preview: ""
 
 ## 项目经验
   - 2017
-    - 诗神摇摇
+    诗神摇摇
     UI&前端开发
 
     独立负责设计微信版UI界面，以及原生应用功能H5化。
@@ -35,7 +35,7 @@ preview: ""
     技术栈： ES6+, React，Handlebars.js, jQuery, PostCSS, Babel, Webpack, Lodash。
 
   - 2016
-    - cc招车系统
+    cc招车系统
     前端开发&项目经理&产品经理（兼职）
 
     独立负责cc招车系统SaaS化任务分配，项目实施，质量跟踪，项目验收及客户端SPA和cc招车管理系统（后台）的开发。
@@ -45,8 +45,9 @@ preview: ""
     技术栈： ES5, Handlebars.js, Highcharts, Flex, Bootstrap, Gulp, jQuery, Underscore。
 
   - 2016
-    - 广电商城
+    广电商城
     前端开发
+
     对广电系电子商城进行二次开发。
     独立负责移动商城重构，优化交互逻辑，利用Ajax动态获取商品信息、更新商品、无限加载；利用flex+rem布局方案进行多终端适配优化，使用Highcharts进行数据呈现（数据可视化），使用Gulp进行前端自动化构建（压缩、合并代码等），提升开发效率。
     项目如期交付。
@@ -54,8 +55,7 @@ preview: ""
     技术栈： ES5, Highcharts, Flex, Bootstrap, Gulp, jQuery。
 
   - 2015
-    - 幕川府微信商城
-
+    幕川府微信商城
     前端开发
 
     开发与有物商城（顺丰旗下电子商城）类似的微信商城。
@@ -70,12 +70,14 @@ preview: ""
   - ES6+/React/Redux
   - Webpack/Gulp
   - Nodejs
-  - ps
+  - Ps
 
 ## 自我评价
 了解客户需求，关注前端生态，喜欢视觉与逻辑的综合体。有良好的沟通能力，与人相处友善，对待工作专心负责。关注开源项目，不断自我提升，努力成为一名更加优秀的前端工程师。
 
 ### 业余经历
-  - Github：https://github.com/shery15
-  - InkPaper：静态博客构建工具，http://www.chole.io/
-  - BLOG:http://www.shery.me/blog/
+  - Github: https://github.com/shery15
+  - InkPaper: 静态博客构建工具，http://www.chole.io/
+  - BLOG: http://www.shery.me/blog/
+  - Awesome Atom Packages: https://github.com/shery15/awesome-atom-packages
+  - Ink Theme Dark: https://github.com/InkProject/ink-theme-dark
