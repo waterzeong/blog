@@ -6,10 +6,10 @@ copy:
 # I18n Support
 lang:
     bg1:
-        en: "./images/bg1.jpg"
-        zh: "./images/bg1.jpg"
-        ru: "./images/bg1.jpg"
-        ja: "./images/bg1.jpg"
+        en: "http://i2.buimg.com/567571/9844c9c9d00a97c8.jpg"
+        zh: "http://i2.buimg.com/567571/9844c9c9d00a97c8.jpg"
+        ru: "http://i2.buimg.com/567571/9844c9c9d00a97c8.jpg"
+        ja: "http://i2.buimg.com/567571/9844c9c9d00a97c8.jpg"
     bg2:
         en: "./images/bg2.jpg"
         zh: "./images/bg2.jpg"

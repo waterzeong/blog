@@ -8,11 +8,12 @@
     </head>
     <body>
         <article class="container">
-            {{if .TagName}}
+            <!-- {{if .TagName}}
               {{template "headerarticle" .}}
             {{else}}
               {{template "header" .}}
-            {{end}}
+            {{end}} -->
+            {{template "headerasset" .}}
             <article class="main page" id="article">
                 <header class="header site">
                   {{if .TagName}}
