@@ -1,6 +1,6 @@
 title: "Resume"
 date: 2017-03-21 18:00:00 +0800
-update: 2017-03-23 23:00:00 +0800
+update: 2017-03-23 12:00:00 +0800
 author: me
 cover: ""
 draft: false
