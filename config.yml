@@ -13,7 +13,7 @@ site:
 authors:
     me:
         name: "shery"
-        intro: "前端攻城狮"
+        intro: "Web Front-End Developer"
         avatar: "-/images/avatar.jpg"
 
 build:
