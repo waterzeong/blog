@@ -54,11 +54,14 @@
     code {
       @mixin font-code;
       font-size: 14px;
-      padding: 1px 4px;
-      border-radius: 3px;
-      margin: 0px 3px;
-      background-color: #76a376;
-      color: $white;
+      /*padding: 1px 4px;*/
+      /*border-radius: 3px;*/
+      /*margin: 0px 3px;*/
+      background-color: $white;
+      color: $darker;
+      border: 0;
+      font-style: italic;
+      text-shadow: 1px 0 0 $darker;
     }
     pre {
       margin: 0;
@@ -73,6 +76,8 @@
         background-color: #fcfcfc;
         display: block;
         overflow: auto;
+        font-style: normal;
+        text-shadow: none;
       }
     }
     blockquote {
