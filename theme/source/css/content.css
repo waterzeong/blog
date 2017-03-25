@@ -58,10 +58,10 @@
       /*border-radius: 3px;*/
       /*margin: 0px 3px;*/
       background-color: $white;
-      color: $darker;
+      color: $dark;
       border: 0;
       font-style: italic;
-      text-shadow: 1px 0 0 $darker;
+      text-shadow: 1px 0 0 $dark;
     }
     pre {
       margin: 0;
@@ -81,7 +81,7 @@
       }
     }
     blockquote {
-      border-left: 4px $green solid;
+      border-left: 4px $dark solid;
       padding: 0px 10px 0px 20px;
       margin: 25px 0;
       margin-left: -23px;

@@ -22,7 +22,7 @@
                     {{end}}
                     <span class="tags">{{range .Tags}}<a class="tag" href="{{$.Site.Root}}/tag/{{.}}/index.html">{{.}}</a>{{end}}</span>
                 </section>
-                <article class="content">{{.Content}}</article>
+                <article class="content">{{.Content}}{{template "license" .}}</article>
                 <section class="author">
                     {{if .Author.Avatar}}<div class="avatar" style="background-image: url({{.Author.Avatar}});"></div>{{end}}
                     <a class="name" href="{{.Site.Root}}/about.{{.Author.Id}}.html">{{.Author.Name}}</a>
