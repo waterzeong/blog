@@ -38,3 +38,5 @@ Before starting, make sure that your static blog repository has two branches, on
 ## Now
 When we complete a post, and then push it to Github, Travis CI wil do the rest things
 . All we need to do is focus on writing.
+
+> You can find all the code mentioned in the repository: [https://github.com/shery15/blog](https://github.com/shery15/blog)
