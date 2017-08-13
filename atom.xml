@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LOVIN YOU</title>
+  <id>http://www.shery.me/blog</id>
+  <updated>2017-08-13T08:15:32Z</updated>
+  <subtitle>There is no Y in { happiness }, It&#39;s an I</subtitle>
+  <link href="http://www.shery.me/blog"></link>
+  <author>
+    <name>LOVIN YOU</name>
+  </author>
+  <entry>
+    <title>Automatically deploy your Ink blog to GitHub pages wiht Travis CI</title>
+    <updated>2016-11-18T23:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-11-18:/blog/travis-ci.html</id>
+    <content type="html">&lt;p&gt;InkPaper is an static blog generator, With Travis CI can solve the problem of automatic build and deployment, so that we can focus more on writing.&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/travis-ci.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>一些适用于前端开发的 Atom 插件</title>
+    <updated>2016-11-09T23:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-11-09:/blog/awesome-atom-packages-zh.html</id>
+    <content type="html">&lt;p&gt;这是一个适用于 Web 开发者的 Atom 插件列表。 有了这些插件帮助， Atom 可以为我们提供类似 IDE 的功能.&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/awesome-atom-packages-zh.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Awesome Atom Packages</title>
+    <updated>2016-11-06T23:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-11-06:/blog/awesome-atom-packages.html</id>
+    <content type="html">&lt;p&gt;Here&amp;rsquo;s a list of several atom-packages for Web developers. With these atom-packages , atom will provide IDE-like functionality.&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/awesome-atom-packages.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>4分钟学会网页样式[译]</title>
+    <updated>2016-07-28T23:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-07-28:/blog/web-design-in-4-minutes.html</id>
+    <content type="html">&lt;p&gt;比方说，你想要在自己网站上分享一个产品，或者是一个作品集，又或者仅仅只是一个灵感。在你发布到网上之前，你想让它看起来有吸引力，专业，或者至少得看起来像那么回事。那么你接下来该做什么呢？&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/web-design-in-4-minutes.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Enjoy Manjaro</title>
+    <updated>2016-06-08T23:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-06-08:/blog/manjaro.html</id>
+    <content type="html">&lt;p&gt;Manjaro Linux是面向桌面的、用户友好的、基于Arch Linux的发行版。它的一些显著特性包括：一份直观的安装程序、自动硬件检测、用于管理图形卡的特别Bash脚本、一组额外的桌面配置选项。 Manjaro Linux带有三份样式，分别采用Xfce、GNOME 3（使用Cinnamon Shell）、KDE桌面。&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/manjaro.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Resume</title>
+    <updated>2017-03-23T12:00:00+08:00</updated>
+    <id>tag:www.shery.me,2017-03-23:/blog/cv.html</id>
+    <content type="html">&lt;p&gt;Shery&amp;rsquo;s Resume as Web Front-End Developer.&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/cv.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
+    <updated>2016-07-11T17:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-07-11:/blog/ink-blog-tool.html</id>
+    <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/ink-blog-tool.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>An Elegant Static Blog Generator —— InkPaper</title>
+    <updated>2016-07-11T17:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-07-11:/blog/ink-blog-tool-en.html</id>
+    <content type="html">&lt;p&gt;InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme.&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/ink-blog-tool-en.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Hello InkPaper</title>
+    <updated>2016-02-08T17:00:00+08:00</updated>
+    <id>tag:www.shery.me,2016-02-08:/blog/hello.html</id>
+    <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
+    <link href="http://www.shery.me/blog/hello.html"></link>
+    <author>
+      <name>shery</name>
+    </author>
+  </entry>
+</feed>

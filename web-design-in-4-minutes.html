@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+<meta name="renderer" content="webkit">
+<meta name="google" value="notranslate">
+<meta name="robots" content="index,follow">
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="LOVIN YOU">
+<meta name="twitter:description" content="There is no Y in { happiness }, It&#39;s an I">
+<meta name="twitter:image:src" content="http://www.shery.me/blog/blog/images/logo.png">
+
+<meta property="og:url" content="http://www.shery.me/blog">
+<meta property="og:title" content="LOVIN YOU">
+<meta property="og:description" content="There is no Y in { happiness }, It&#39;s an I">
+<meta property="og:site_name" content="LOVIN YOU">
+<meta property="og:image" content="http://www.shery.me/blog/blog/images/logo.png">
+<meta property="og:type" content="website">
+<meta name="robots" content="noodp">
+
+<meta itemprop="name" content="LOVIN YOU">
+<meta itemprop="description" content="There is no Y in { happiness }, It&#39;s an I">
+<meta itemprop="image" content="http://www.shery.me/blog/blog/images/logo.png">
+
+<link rel="canonical" href="http://www.shery.me/blog">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="stylesheet" href="/blog/bundle/index.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+<script type="text/javascript">
+    var timeSinceLang = {
+        year: ' years ago',
+        month: ' months ago',
+        day: ' days ago',
+        hour: ' hours ago',
+        minute: ' minutes ago',
+        second: ' seconds ago'
+    };
+    var root = '\/blog';
+</script>
+
+
+        <meta name="keywords" content="CSS,前端,">
+        <meta name="description" content="4分钟学会网页样式[译]">
+        <meta name="author" content="shery">
+        <title>4分钟学会网页样式[译]</title>
+    </head>
+    <body>
+        <article class="container">
+            <header class="header-wrap asset" style="background-image: url(http://i2.buimg.com/567571/9844c9c9d00a97c8.jpg);">
+  <nav class="main-nav">
+    
+      <a class="blog-logo" href="/blog/"><img class="logo" src="/blog/images/logo.png" /></a>
+    
+    <ul class="menu vertical">
+        <li class="menu-item"><a href="/blog/archive.html">ARCHIVE</a></li>
+        <li class="menu-item"><a href="/blog/tag.html">TAG</a></li>
+        <li class="menu-item"><a href="/blog/atom.xml">RSS</a></li>
+    </ul>
+  </nav>
+  <div class="vertical">
+    <div class="header-wrap-content inner">
+      <h1 class="title">LOVIN YOU</h1>
+      <h2 class="subtitle">There is no Y in { happiness }, It&#39;s an I</h2>
+    </div>
+  </div>
+  <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
+
+            <article class="main article">
+                <h1 class="title">4分钟学会网页样式[译]</h1>
+                <section class="info">
+                    <span class="avatar" style="background-image: url(/blog/images/avatar.jpg);"></span>
+                    <a class="name" href="/blog/about.me.html">shery</a>
+                    
+                    <span class="date" data-time="1469718000"><span class="from"></span></span>
+                    
+                    <span class="tags"><a class="tag" href="/blog/tag/CSS/index.html">CSS</a><a class="tag" href="/blog/tag/%e5%89%8d%e7%ab%af/index.html">前端</a></span>
+                </section>
+                <article class="content"><p>比方说，你想要在自己网站上分享一个产品，或者是一个作品集，又或者仅仅只是一个灵感。在你发布到网上之前，你想让它看起来有吸引力，专业，或者至少得看起来像那么回事。</p>
+
+<p>那么你接下来该做什么呢？</p>
+
+<h2>文本</h2>
+
+<p>设计的目的是为了增强它所应用到的内容的表现形式。这看上去是显而易见的事，但内容是一个网站的主要元素，它不应该在发布后才想到要调整。
+编写的内容，就像你目前正在阅读的文章，组成了超过90%的网页。为这个文本内容添加样式将有一个很长的路要走。
+让我们假设你已经完成了你想发布的内容，同时已经创建了一个空的<code>style.css</code>文件，什么是你可以写的第一条规则？</p>
+
+<h2>居中</h2>
+
+<p>长文本很难解析，也因此不易阅读。每行设置字符限制，可以大大提高大量文本的可读性和吸引力。</p>
+
+<pre><code>body {
+  margin: 0 auto;
+  max-width: 50em;
+}
+</code></pre>
+
+<p>在为文本容器添加了样式后，为文本本身添加样式可好？</p>
+
+<h2>字体</h2>
+
+<p>浏览器的默认字体为<code>Times</code>，可看起来缺乏吸引力（主要是因为它是“无样式”字体）。切换到一个无衬线字体，如<code>Helvetica</code>或<code>Arial</code>可以大大提高你网页的可读性。</p>
+
+<pre><code>body {
+  font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+}
+</code></pre>
+
+<p>如果你坚持要用衬线体，可以试试<code>Georgia</code>。
+当我们让文本更具吸引力时，也需要让它更具可读性。</p>
+
+<h2>间隔</h2>
+
+<p>当用户觉得一个页面<code>崩坏</code>的时候，通常来说都是<code>间距</code>问题。通过在文本周围和文本内设置适当的间距就可以增加页面的吸引力。</p>
+
+<pre><code>body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+</code></pre>
+
+<p>虽然到目前为止布局已经大大改善，但让我们添加更多细节处理。</p>
+
+<h2>颜色和对比度</h2>
+
+<p>白色背景上的黑色文字看起来会比较扎眼。为文本选择一款较软一点的黑色，让页面阅读起来更舒服。</p>
+
+<pre><code>body {
+  color: #555;
+}
+</code></pre>
+
+<p>为了保持一个良好的<code>对比度</code>，让我们为<code>重要</code>文本选择一个更黑暗的阴影。</p>
+
+<pre><code>h1,
+h2,
+strong {
+  color: #333;
+}
+</code></pre>
+
+<p>虽然大部分页面在视觉上已经有所提升，但是一些元素依然显得格格不入，如代码段。</p>
+
+<h2>平衡</h2>
+
+<p>只需要一些额外的调整就可以平衡页面：</p>
+
+<pre><code>code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+</code></pre>
+
+<p>在这一点上，你可能想让你的页面脱颖而出，让它更有个性。</p>
+
+<h2>主色调</h2>
+
+<p>大多数品牌都有一个<code>主色调</code>，作为视觉基调。在一个网页上，这个主色调可以用来强调交互元素，如<code>链接</code>。</p>
+
+<pre><code>a {
+  color: #e81c4f;
+}
+</code></pre>
+
+<p>但是为了保持平衡/协调，我们还需要一些额外的颜色。</p>
+
+<h2>辅助色</h2>
+
+<p>主色调可以用更微妙的色调来补充，用于边框，背景，甚至正文中。</p>
+
+<pre><code>body {
+  color: #566b78;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  border-bottom: 1px solid #d8dee9;
+  color: #a7adba;
+}
+
+pre {
+  border-left: 2px solid #69c;
+}
+</code></pre>
+
+<p>已经改变了色调，为什么不一并改变外形/字体&hellip;</p>
+
+<h2>自定义字体</h2>
+
+<p>由于文本是网页的主要内容，使用<code>自定义字体</code>能使页面更加引人注目。
+当你可以嵌入自己的网页字体或使用类似<a href="https://typekit.com/">Typekit</a>的在线服务时，让我们使用免费<a href="https://fonts.google.com/">谷歌字体</a><code>Roboto</code>：</p>
+
+<pre><code>@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+body {
+  font-family: &quot;Roboto&quot;, &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+}
+</code></pre>
+
+<p>在通过自定义字体凸显你的个性后，想让页面更加丰富多彩又怎么办呢？</p>
+
+<p><img src="data:image/gif;base64,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" data-src="https://raw.githubusercontent.com/jgthms/web-design-in-4-minutes/master/images.png" alt="Spongebob rainbow meme saying 'Images'" /></p>
+
+<p>图片和图标既可用来作为支持你的内容的装饰品，还可以在你想要传达的信息中担当积极部分。</p>
+
+<p>让我们从<a href="https://unsplash.com/photos/qH36EgNjPJY">Unsplash</a>挑选一张漂亮的背景图片来美化<code>header</code>。</p>
+
+<pre><code>header {
+  background-color: #263d36;
+  background-image: url(&quot;header.jpg&quot;);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+</code></pre>
+
+<p>添加<code>logo</code></p>
+
+<pre><code>header img {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+</code></pre>
+
+<p>让我们借这个机会，来提高文本格调。</p>
+
+<pre><code>header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  border-radius: 290486px;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background;
+}
+
+header a:hover {
+  background:  #e81c4f;
+  color: white;
+}
+</code></pre>
+
+<p><a href="#">瞧！</a></p>
+
+<p>按照网页设计的基本原则，我们在短短几分钟内设计了一个像样的页面。只剩下最后一件事啦&hellip;</p>
+
+<h2>分享爱！</h2>
+
+<p><a href="https://github.com/jgthms/web-design-in-4-minutes"><strong>GitHub</strong>下载链接</a></p>
+
+<p><a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fjgthms.com%2Fweb-design-in-4-minutes%2F"><strong>Facebook</strong>分享链接</a></p>
+
+<p><a href="https://twitter.com/intent/tweet?text=Web%20Design%20in%204%20minutes&amp;url=http%3A%2F%2Fjgthms.com%2Fweb-design-in-4-minutes%2F&amp;via=jgthms"><strong>Twitter</strong>分享链接</a></p>
+
+<p>如果你想学习更过网页设计, 查看 <a href="http://marksheet.io/"><strong>MarkSheet</strong></a>, 我的免费 HTML 和 CSS 指南.
+又或者你想马上开始尝试网页设计, 试试 <a href="http://bulma.io/"><strong>Bulma</strong></a>, 这是我基于Flexbox的 CSS 框架.</p>
+
+<h2>总结 - Web Design in 4 minutes</h2>
+
+<p>这篇文章介绍了基本的网页设计过程和设计原则，一步步分解过程，让刚开始接触网页设计的人，也可以很快找到感觉，希望这篇文章能在你刚接触网页设计不知所措的时，给到你些帮助。</p>
+
+<p>感谢阅读！</p>
+
+<blockquote>
+<p>本文译自2016年的<a href="http://jgthms.com/web-design-in-4-minutes/">《Web Design in 4 minutes》 - Jeremy Thomas</a>，第一次翻译，同时对原文有理解性改动，水平有限，欢迎提出意见。</p>
+</blockquote>
+<blockquote class="license">
+<p><a rel="license" style="border-width:0" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.shery.me" property="cc:attributionName" rel="cc:attributionURL">shery</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
+</blockquote>
+</article>
+                <section class="author">
+                    <div class="avatar" style="background-image: url(/blog/images/avatar.jpg);"></div>
+                    <a class="name" href="/blog/about.me.html">shery</a>
+                    <div class="intro">Web Front-End Developer</div>
+                </section>
+                <section class="recommend">
+                    
+                    <section class="nav prev more">
+                        
+                        <a class="link" href="/blog/awesome-atom-packages.html">Prev Reading</a>
+                    </section>
+                    
+                    
+                    <section class="nav next more">
+                        
+                        <a class="link" href="/blog/manjaro.html">Next Reading</a>
+                    </section>
+                    
+                </section>
+                
+    <section id="disqus_thread"></section>
+    <script type="text/javascript">
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//shery09.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+            </article>
+        </article>
+        <footer class="footer clearfix">
+    <span class="copyright">
+        LOVIN YOU &copy;
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+    </span>
+    <span class="publish">Powered by <a href="http://www.chole.io/" target="_blank">Ink</a></span>
+</footer>
+
+        <script src="/blog/bundle/index.js"></script>
+    </body>
+</html>
